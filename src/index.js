@@ -10,7 +10,7 @@ function updateTime() {
       .format("MMMM Do YYYY");
     londoncityTimeElement.innerHTML = `${moment
       .tz("Europe/London")
-      .format("h:m:s")} <small>${moment().format("A")}</small>`;
+      .format("h:mm:ss")} <small>${moment().format("A")}</small>`;
   }
   //Paris//
   let pariscityElement = document.querySelector("#paris");
@@ -23,7 +23,7 @@ function updateTime() {
       .format("MMMM Do YYYY");
     pariscityTimeElement.innerHTML = `${moment
       .tz("Europe/Paris")
-      .format("h:m:s")} <small>${moment().format("A")}</small>`;
+      .format("h:mm:ss")} <small>${moment().format("A")}</small>`;
   }
   //New York//
   let newyorkcityElement = document.querySelector("#newyork");
@@ -36,7 +36,7 @@ function updateTime() {
       .format("MMMM Do YYYY");
     newyorkcityTimeElement.innerHTML = `${moment
       .tz("America/New_York")
-      .format("h:m:s")} <small>${moment().format("A")}</small>`;
+      .format("h:mm:ss")} <small>${moment().format("A")}</small>`;
   }
   //mumbai//
   let mumbaicityElement = document.querySelector("#mumbai");
@@ -49,7 +49,7 @@ function updateTime() {
       .format("MMMM Do YYYY");
     mumbaicityTimeElement.innerHTML = `${moment
       .tz("Asia/Calcutta")
-      .format("h:m:s")} <small>${moment().format("A")}</small>`;
+      .format("h:mm:ss")} <small>${moment().format("A")}</small>`;
   }
 }
 
@@ -68,7 +68,7 @@ function updateCity(event) {
         <div class="date">${selectedCityTimeZone.format("MMMM Do YYYY")}</div>
       </div>
       <div class="time">${selectedCityTimeZone.format(
-        "h:m:s"
+        "h:mm:ss"
       )} <small>${moment().format("A")}</small></div>
     </div>
   `;
