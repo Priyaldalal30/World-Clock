@@ -69,9 +69,10 @@ function updateCity(event) {
       )} <small>${moment().format("A")}</small></div>
     </div>
   `;
-  updateCity();
-  setInterval(updateCity, 1000);
 }
+
+updateTime();
+setInterval(updateTime, 100);
 
 let selectcityElement = document.querySelector("#city");
 selectcityElement.addEventListener("change", updateCity);
