@@ -36,6 +36,10 @@ select {
   select {
     width: 40%;
   }
+  .coded {
+    margin: auto;
+    padding-top: 30px;
+  }
 }
 @media (max-width: 385px) {
   .title {
@@ -48,6 +52,10 @@ select {
   .date,
   .time {
     font-size: 13px;
+  }
+  .coded {
+    margin: auto;
+    padding-top: 30px;
   }
 }
 .city {
