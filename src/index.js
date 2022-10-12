@@ -71,6 +71,7 @@ function updateCity(event) {
         "h:mm:ss"
       )} <small>${moment().format("A")}</small></div>
     </div>
+    <a href="/" class"homepage">Homepage</a>
   `;
 }
 let selectcityElement = document.querySelector("#city");
