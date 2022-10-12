@@ -10,7 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Audiowide&family=Gruppo&family=Major+Mono+Display&display=swap"
       rel="stylesheet"
     />
-
+    <script
+      src="https://kit.fontawesome.com/5bde5bf2d0.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="src/styles.css" />
     <title>World Clock</title>
   </head>
@@ -20,50 +23,48 @@
     <div class="container">
       <div>
         <span class="title">W⏱rld Cl⏱ck</span>
-        <div class="dropdown">
+        <form class="dropdown">
           <select name="" id="cities">
+            <option value="">Select a city</option>
+
             <option value="current location">Current Location</option>
             <option value="madrid">Madrid</option>
             <option value="rome">Rome</option>
             <option value="lisbon">Lisbon</option>
           </select>
-        </div>
+        </form>
         <div class="cities">
-          <div id="lodnon" class="city">
+          <div class="city">
             <div>
               <h2>London</h2>
               <div class="date">October 12th 2022</div>
             </div>
-            <div class="time">09:46:20 AM</div>
+            <div class="time">09:46:20 <small>AM</small></div>
           </div>
-          <hr />
-          <div id="Newyork" class="city">
-            <div>
-              <h2>New York</h2>
-              <div class="date">October 12th 2022</div>
-            </div>
-            <div class="time">09:46:20 AM</div>
-          </div>
-          <hr />
-          <div id="paris" class="city">
+          <div class="city">
             <div>
               <h2>Paris</h2>
               <div class="date">October 12th 2022</div>
             </div>
-            <div class="time">09:46:20 AM</div>
+            <div class="time">09:46:20 <small>AM</small></div>
           </div>
-          <hr />
-          <div id="Losangeles" class="city">
+          <div class="city">
             <div>
-              <h2>Los Angeles</h2>
+              <h2>New York</h2>
               <div class="date">October 12th 2022</div>
             </div>
-            <div class="time">09:46:20 AM</div>
+            <div class="time">09:46:20 <small>AM</small></div>
+          </div>
+          <div class="city">
+            <div>
+              <h2>Mumbai</h2>
+              <div class="date">October 12th 2022</div>
+            </div>
+            <div class="time">09:46:20 <small>AM</small></div>
           </div>
         </div>
 
         <footer>
-          <hr />
           <div class="footer">
             <span class="logo">Pd</span>
             <span class="coded"
