@@ -36,6 +36,13 @@ select {
   select {
     width: 40%;
   }
+  h2,
+  .date {
+    font-size: 18px;
+  }
+  .time {
+    font-size: 14px;
+  }
   .coded {
     margin: auto;
     padding-top: 30px;
