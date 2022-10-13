@@ -29,42 +29,7 @@ select {
   font-size: 45px;
   font-family: "Major Mono Display", monospace;
 }
-@media (max-width: 470px) {
-  .title {
-    font-size: 35px;
-  }
-  select {
-    width: 40%;
-  }
-  h2,
-  .date {
-    font-size: 18px;
-  }
-  .time {
-    font-size: 14px;
-  }
-  .coded {
-    margin: auto;
-    padding-top: 30px;
-  }
-}
-@media (max-width: 385px) {
-  .title {
-    font-size: 20px;
-  }
-  select {
-    width: 70%;
-  }
-  h2,
-  .date,
-  .time {
-    font-size: 13px;
-  }
-  .coded {
-    margin: auto;
-    padding-top: 30px;
-  }
-}
+
 .city {
   display: flex;
   justify-content: space-between;
@@ -169,4 +134,42 @@ a:-webkit-any-link:hover {
 }
 .githublink:hover {
   color: #682e8e;
+}
+@media (max-width: 470px) {
+  .title {
+    font-size: 35px;
+  }
+  select {
+    width: 40%;
+  }
+  h2,
+  .time {
+    font-size: 20px;
+  }
+  .date,
+  small {
+    font-size: 14px;
+  }
+  .coded {
+    margin: auto;
+    padding-top: 30px;
+  }
+}
+@media (max-width: 385px) {
+  .title {
+    font-size: 20px;
+  }
+  select {
+    width: 70%;
+  }
+  h2,
+  .date,
+  .time,
+  small {
+    font-size: 14px;
+  }
+  .coded {
+    margin: auto;
+    padding-top: 30px;
+  }
 }
