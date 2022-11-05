@@ -109,7 +109,7 @@ a:-webkit-any-link:hover {
 
 .netlifyLink,
 .priyal {
-  text-decoration: none;
+  text-decoration: underline;
   color: white;
 }
 .netlifyLink:hover,
